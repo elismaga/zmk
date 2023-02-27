@@ -4,11 +4,11 @@
 
 / {
 	behaviors {
-		tp: behavior_tap_preferred {
+		tpnm: behavior_tap_preferred_no_mods {
 			compatible = "zmk,behavior-hold-tap";
 			label = "MOD_TAP";
 			#binding-cells = <2>;
-			flavor = "tap-preferred";
+			flavor = "tap-preferred-no-mods";
 			tapping-term-ms = <300>;
 			quick-tap-ms = <200>;
 			bindings = <&kp>, <&kp>;
