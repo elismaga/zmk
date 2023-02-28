@@ -6,7 +6,7 @@
 	behaviors {
 		tpnm: behavior_tap_preferred_no_mods {
 			compatible = "zmk,behavior-hold-tap";
-			label = "MOD_TAP";
+			label = "TAP_PREF_NO_MODS";
 			#binding-cells = <2>;
 			flavor = "tap-preferred-no-mods";
 			tapping-term-ms = <300>;
